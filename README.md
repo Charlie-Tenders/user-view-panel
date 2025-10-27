@@ -5,7 +5,7 @@ The app fetches user data from a REST API (or local mock data) and allows in-pla
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fetches user data from a remote REST API  
 - Displays users as responsive Bootstrap cards  
@@ -17,7 +17,7 @@ The app fetches user data from a REST API (or local mock data) and allows in-pla
 ---
 
 ## Project Structure
-
+```
 /
 ├── index.html # Main page and modal container
 ├── style.css # Custom styling for cards and layout
@@ -29,6 +29,7 @@ The app fetches user data from a REST API (or local mock data) and allows in-pla
 ├── fetchData.js # GET request handler
 ├── putData.js # PUT request handler
 └── formFactory.js # Dynamic modal form generator
+```
 
 ## ️ Setup & Usage
 
